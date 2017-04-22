@@ -460,21 +460,19 @@ footer{
 	padding: 5px 20px 0;
 	li{
 	  float: left;
-	  width: 33.3%;
+	  width: 40%;
+		&:nth-child(2) {
+			width: 20%;
+		}
 	  &:first-of-type{
-		p{
+		p {
 		  font-size: 25px;
 		  font-family: inherit;
-		}
-		h3{
-		  //@media (max-width: 795px) {
-			//text-align: center;
-			//padding: 15px 0 0 0;
-		  //}
 		}
 	  }
 	  &:last-of-type{
 		p{
+			font-size: 20px;
 		  line-height: 24px;
 			br{
 				display: none;
@@ -1261,7 +1259,7 @@ footer{
 	  &:focus {
 		outline: none;
 	  }
-	  &:last-child {
+	  &[type="submit"] {
 		background-color: #fcd105;
 		float: none;
 		margin-top: 45px;
@@ -1507,17 +1505,6 @@ footer{
     float: left;
     height: 110px;
   }
-  //@media (max-width: 730px) {
-  //  .footer_left,
-  //  .footer_right {
-  //    width: 100% !important;
-  //  }
-  //  .center {
-  //    float: left;
-  //    width: 100%;
-  //    text-align: center !important;
-  //  }
-  //}
 }
 
 

@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'vag_worldbold';
+  src: url('../fonts/9887-webfont.eot');
+  src: url('../fonts/9887-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/9887-webfont.woff2') format('woff2'),
+  url('../fonts/9887-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('../fonts/hinted-subset-MyriadPro-Bold.eot');
+  src: local('Myriad Pro Bold'), local('MyriadPro-Bold'),
+  url('../fonts/hinted-subset-MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/hinted-subset-MyriadPro-Bold.woff2') format('woff2'),
+  url('../fonts/hinted-subset-MyriadPro-Bold.woff') format('woff'),
+  url('../fonts/hinted-subset-MyriadPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}

@@ -1,0 +1,13 @@
+.hand, .grafic, .smile, .galst, .calendar,
+.rub, .six, .left, .right
+{ display: inline-block; background: url('../img/sprite/sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+
+.hand { background-position: -20px -0px; width: 77px; height: 50px; }
+.grafic { background-position: -20px -70px; width: 61px; height: 46px; }
+.smile { background-position: -20px -136px; width: 55px; height: 54px; }
+.galst { background-position: -20px -210px; width: 52px; height: 52px; }
+.calendar { background-position: -20px -282px; width: 50px; height: 53px; }
+.rub { background-position: -20px -355px; width: 49px; height: 54px; }
+.six { background-position: -20px -429px; width: 48px; height: 61px; }
+.left { background-position: -20px -510px; width: 12px; height: 30px; }
+.right { background-position: -52px -510px; width: 12px; height: 30px; }
